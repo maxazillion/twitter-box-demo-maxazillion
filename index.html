@@ -1,19 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-it-installed="true" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
+    />
 
     <!-- TODO: Add some Google Fonts -->
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- TODO: Update '<title>'. -->
-    <title>Document</title>
+    <title>Twitter Box Functionality Demo</title>
   </head>
   <body>
+    <main>
+      <form>
+        <textarea placeholder="write something"></textarea>
+        <it-mirror style="display: none"></it-mirror>
+        <div>
+          <span><span>0</span>&nbsp;/&nbsp;140</span>
+          <button disabled="">tweet</button>
+        </div>
+      </form>
+    </main>
     <script src="./scripts.js" type="module"></script>
   </body>
 </html>
